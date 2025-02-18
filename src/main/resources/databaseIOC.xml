@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="cloudDB" class="inversionOfControl.CloudDB">
+        <property name="message" value="Data accessed from Cloud Database"/>
+    </bean>
+    <bean id="webDB" class="inversionOfControl.WebDB">
+        <property name="message" value="Data accessed Web Database"/>
+    </bean>
+    <bean id="localDB" class="inversionOfControl.LocalDB">
+        <property name="message" value="Data accessed from Local Database"/>
+    </bean>
+
+</beans>
