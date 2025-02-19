@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e6102515-f96d-4a87-a2ca-dd47c5aab66a" />
-  </component>
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
-  <component name="MaliciousPackageCheckinHandlerState">
-    <option name="packageCheck" value="true" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
